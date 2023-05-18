@@ -1,0 +1,64 @@
+@charset "UTF-8"; 
+
+body {
+  background-color: gray;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+ 
+header   {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+}
+ 
+main{
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer   {
+  padding: 40px;
+  height: 40px;
+  background-color : black;
+  color: white;
+}
+
+a {
+  background-color: royalblue;
+  color: #FFF;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFF;
+}
+
+a:hover {
+  color: #FFF;
+  background-color: orange;
+}
+
+a:active {
+  background-color: aquamarine;
+}
+
+table tr:nth-of-type(even) {
+  background-color: rgb(178, 243, 143);
+}
+
+table tr:nth-of-type(odd) {
+  background-color: rgb(246, 163, 243);
+}
